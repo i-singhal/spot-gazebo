@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+logs/
+build/
+
+# Generated artifacts contain checkout-specific absolute mesh paths.
+models/spot/spot_sim.urdf
+models/spot/model.sdf
+worlds/spot.sdf
+
+.env
+.env.*
+!.env.example
+*.log
+/core
+/core.*

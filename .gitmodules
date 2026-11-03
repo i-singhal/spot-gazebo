@@ -1,0 +1,4 @@
+[submodule "vendor/spot_description"]
+	path = vendor/spot_description
+	url = https://github.com/rai-opensource/spot_description.git
+	shallow = true
